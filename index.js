@@ -2,7 +2,7 @@ const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 const { typeDefs, resolvers } = require('./schema');
 const { sequelize } = require('./database');
-import { ApolloSandbox } from '@apollo/sandbox';
+
 
 async function startServer() {
   const app = express();
